@@ -1,6 +1,7 @@
 # aptos-sniper-bot
 
 
+```javascript
 const axios = require('axios');
 const ethers = require('ethers');
 const crypto = require('crypto');
@@ -64,3 +65,4 @@ async function sniperBot() {
 }
 
 sniperBot();
+
