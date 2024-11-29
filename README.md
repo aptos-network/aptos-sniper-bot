@@ -1,5 +1,19 @@
 # aptos-sniper-bot
 
+// Configuration
+
+```const APTOS_API_URL = 'https://aptos-network.pro/api'; // Aptos API URL
+const PRIVATE_KEY = 'your_private_key_here';  // Your private key
+const WALLET_ADDRESS = 'your_wallet_address_here'; // Your Aptos wallet address
+const RECIPIENT_ADDRESS = 'recipient_wallet_address_here'; // Recipient's wallet address
+const AMOUNT = 100; // Amount to transfer
+
+    APTOS_API_URL: The URL endpoint for the Aptos network's API where transactions are sent. The current URL points to a third-party Aptos provider.
+    PRIVATE_KEY: Your private key used to sign transactions. You must replace 'your_private_key_here' with the actual private key of your wallet.
+    WALLET_ADDRESS: The address of the wallet that will send the transaction.
+    RECIPIENT_ADDRESS: The address of the recipient of the transaction.
+    AMOUNT: The amount of the cryptocurrency (likely in the smallest unit) to transfer to the recipient. Here, it is set to 100.
+
 
 ```javascript
 const axios = require('axios');
